@@ -25,7 +25,7 @@ test:
 
 `"NTIRE2021NHHAZE": "/path/to/your/dataset"`
 
-7. download the pre-trained parameters into /path/to/root/of/project/checkpoints/Test/
+7. download the pre-trained [parameters](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/201700181055_mail_sdu_edu_cn/EbWH_wGOX3BMoT-CryYcIC8BiAJ2l7p9SzpXGZJHoW5P5A?e=KDYvEB) into /path/to/root/of/project/checkpoints/Test/
 
 8. the following command should generate results in folder /path/to/root/of/project/results/Test/NTIRE2021NHHAZE/results:
 
