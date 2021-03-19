@@ -5,3 +5,4 @@ tqdm==4.55.1
 attribdict>=0.0.5
 tensorboard==2.4.0
 numpy==1.19.2
+termcolor==1.1.0
