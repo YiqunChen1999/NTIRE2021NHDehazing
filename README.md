@@ -26,7 +26,7 @@ NTIRE2021NHHAZE:
 
 `"NTIRE2021NHHAZE": "/path/to/your/dataset"`
 
-for example, if you put at: `/data/NTIRE2021NHHAZE/test/source/`, then the 44th line should be: `"NTIRE2021NHHAZE": "/data/NTIRE2021NHHAZE/test/source/"`.
+for example, if you put images in: `/data/NTIRE2021NHHAZE/test/source/`, then the 44th line should be: `"NTIRE2021NHHAZE": "/data/NTIRE2021NHHAZE/test/source/"`.
 
 7. download the pre-trained [parameters](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/201700181055_mail_sdu_edu_cn/EbWH_wGOX3BMoT-CryYcIC8BiAJ2l7p9SzpXGZJHoW5P5A?e=KDYvEB) into `/path/to/root/of/project/checkpoints/Test/`
 
