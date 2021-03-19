@@ -14,22 +14,26 @@
 5. uncompress and orginaze the NTRIE 2021 NHDehazing data in a folder as following:
 
 ```
-test:
-    source:
-        img_idx_0.png
-        img_idx_1.png
-        ...
+NTIRE2021NHHAZE:
+    test:
+        source:
+            img_idx_0.png
+            img_idx_1.png
+            ...
 ```
 
-6. modify 44th line in /path/to/root/of/project/src/configs/configs.py:
+6. modify 44th line in `/path/to/root/of/project/src/configs/configs.py`:
 
 `"NTIRE2021NHHAZE": "/path/to/your/dataset"`
 
-7. download the pre-trained [parameters](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/201700181055_mail_sdu_edu_cn/EbWH_wGOX3BMoT-CryYcIC8BiAJ2l7p9SzpXGZJHoW5P5A?e=KDYvEB) into /path/to/root/of/project/checkpoints/Test/
+for example, if you put at: `/data/NTIRE2021NHHAZE/test/source/`, then the 44th line should be: `"NTIRE2021NHHAZE": "/data/NTIRE2021NHHAZE/test/source/"`.
 
-8. the following command should generate results in folder /path/to/root/of/project/results/Test/NTIRE2021NHHAZE/results:
+7. download the pre-trained [parameters](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/201700181055_mail_sdu_edu_cn/EbWH_wGOX3BMoT-CryYcIC8BiAJ2l7p9SzpXGZJHoW5P5A?e=KDYvEB) into `/path/to/root/of/project/checkpoints/Test/`
+
+8. the following command should generate results in folder `/path/to/root/of/project/results/Test/NTIRE2021NHHAZE/results`:
 
 ```bash
 cd /path/to/root/of/project
 python src/main.py --id Test --dataset NTIRE2021NHHAZE --batch_size 1 --resume true --gpu [0]
 ```
+We have uploaded the results on this repository, please check folder `results/Test/NTIRE2021NHHAZE/results`
