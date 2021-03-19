@@ -1,7 +1,7 @@
 
 # README
 
-## How to use.
+## How to Start.
 
 1. create conda environment
 
